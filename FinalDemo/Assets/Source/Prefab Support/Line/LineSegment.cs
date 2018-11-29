@@ -28,7 +28,7 @@ public class LineSegment : MonoBehaviour {
     public void SetWidth(float w)
     {
         Vector3 s = transform.localScale;
-        s.x = s.z = w;
+        s.x = s.z = w*4;
         transform.localScale = s;
     }
 
@@ -90,6 +90,8 @@ public class LineSegment : MonoBehaviour {
         transform.localRotation = q;
 #endif
         // 2. place in the proper place, remembering to shift by Y
-        transform.localPosition = mP1 + mV * (mL / 2f);
+        transform.position = mP1 + mV * (mL / 2f);
+
+        Debug.Log("EndPt: " + transform.position);
     }
 }

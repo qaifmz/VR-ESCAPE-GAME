@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public partial class TheWorld : MonoBehaviour {
-
-    public SceneNode TheRoot;
+    
     public UILineSegment AimingLine;
     public UILineSegment BigLine;
     //public Plane Barrier;

@@ -28,7 +28,7 @@ public class TravelingBall : MonoBehaviour {
         mProjectedOnBig.GetComponent<Renderer>().material.color = Color.white;
         mProjectedOnBig.GetComponent<Renderer>().shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
         mProjectedOnBig.GetComponent<Renderer>().enabled = false;
-        mProjectedOnBig.transform.localScale = new Vector3(3f, 3f, 3f);
+        mProjectedOnBig.transform.localScale = new Vector3(10f, 10f, 10f);
     }
 	
 	// Update is called once per frame
@@ -50,7 +50,8 @@ public class TravelingBall : MonoBehaviour {
         
 
         transform.localPosition += mSpeed * Time.deltaTime * mDir;
-	}
+        //Debug.Log("Ball: " + transform.localPosition);
+    }
 
     public void Initialize(TheWorld w)
     {

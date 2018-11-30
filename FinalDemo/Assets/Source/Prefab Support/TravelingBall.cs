@@ -28,7 +28,7 @@ public class TravelingBall : MonoBehaviour {
         mProjectedOnBig.GetComponent<Renderer>().material.color = Color.white;
         mProjectedOnBig.GetComponent<Renderer>().shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
         mProjectedOnBig.GetComponent<Renderer>().enabled = false;
-        mProjectedOnBig.transform.localScale = new Vector3(10f, 10f, 10f);
+        mProjectedOnBig.transform.localScale = new Vector3(3.5f, 3.5f, 3.5f);
     }
 	
 	// Update is called once per frame

@@ -28,7 +28,7 @@ public class LineSegment : MonoBehaviour {
     public void SetWidth(float w)
     {
         Vector3 s = transform.localScale;
-        s.x = s.z = w*4;
+        s.x = s.z = w*2;
         transform.localScale = s;
     }
 

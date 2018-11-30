@@ -82,16 +82,16 @@
      <None Include="Assets\Materials\ShaderWithoutCull.shader" />
      <None Include="Assets\Materials\TexturesOnly.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/qaifamz/Downloads/Unity/VR-ESCAPE-GAME-master/VR-ESCAPE-GAME-master/FinalDemo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/qaifamz/Downloads/VR-ESCAPE-GAME/FinalDemo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/qaifamz/Downloads/Unity/VR-ESCAPE-GAME-master/VR-ESCAPE-GAME-master/FinalDemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/qaifamz/Downloads/VR-ESCAPE-GAME/FinalDemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/qaifamz/Downloads/Unity/VR-ESCAPE-GAME-master/VR-ESCAPE-GAME-master/FinalDemo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/qaifamz/Downloads/VR-ESCAPE-GAME/FinalDemo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/qaifamz/Downloads/Unity/VR-ESCAPE-GAME-master/VR-ESCAPE-GAME-master/FinalDemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/qaifamz/Downloads/VR-ESCAPE-GAME/FinalDemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

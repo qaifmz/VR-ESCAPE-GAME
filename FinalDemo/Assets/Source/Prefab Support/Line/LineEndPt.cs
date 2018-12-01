@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LineEndPt : MonoBehaviour 
-{
+public class LineEndPt : MonoBehaviour {
+
     // One end point of a line segment
     public string RestingWall;
     	
@@ -11,15 +11,14 @@ public class LineEndPt : MonoBehaviour
     {
         bool hit = (onWall == RestingWall);
         if (hit)
-            transform.position = pos;
+            transform.localPosition = pos;
         return hit;
     }
 
     public void SetPosition(Vector3 p)
     {
-        transform.position = p;
-        //Debug.Log("EndPt: " + p);
+        transform.localPosition = p;
     }
 
-    public Vector3 GetPosition() { return transform.position; }
+    public Vector3 GetPosition() { return transform.localPosition; }
 }

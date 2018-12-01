@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Plane : MonoBehaviour
-{
-    /*
+public class Plane : MonoBehaviour {
     // Vector3 mN;     // normal, normalized, this is actually -transform.forward
     float mD;       // mN dot P = mD;
     public LineSegment mNormal; // This is the normal vector we will display
@@ -50,5 +48,4 @@ public class Plane : MonoBehaviour
         Vector3 va = p - transform.localPosition;
         return (Vector3.Dot(va, GetNormal()) > 0f);
     }
-    */
 }
